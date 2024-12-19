@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <!-- Logo/Brand -->
+        <div class="navbar__brand">MOMENTUM</div>
+
+        <!-- Navigation Items -->
+        <div class="navbar__menu">
+          <a href="#" class="navbar__item navbar__item--active">PROPOSAL</a>
+          <a href="#" class="navbar__item">SCHEDULE</a>
+          <a href="#" class="navbar__item">FILES</a>
+          <a href="#" class="navbar__item">SAMPLE</a>
+          <a href="#" class="navbar__item">COSTING</a>
+          <a href="#" class="navbar__item">SUB ASSEMBLIES</a>
+          <a href="#" class="navbar__item">COST</a>
+          <a href="#" class="navbar__item">COMPONENT TOTALS</a>
+        </div>
+      </div>
+    </nav>
+    <div class="layout">
+      <aside class="sidebar sidebar--left">
+        <!-- Back button -->
+        <div class="sidebar__back-container">
+          <a href="#" class="sidebar__back-link">
+            <span class="sidebar__back-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="20px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#fff"
+              >
+                <path
+                  d="M760-200v-160q0-50-35-85t-85-35H273l144 144-57 56-240-240 240-240 57 56-144 144h367q83 0 141.5 58.5T840-360v160h-80Z"
+                />
+              </svg>
+            </span>
+            BACK TO DESIGNING SQUAD
+          </a>
+        </div>
+
+        <div class="sidebar__customer">CUSTOMER</div>
+
+        <!-- Company section -->
+        <div class="sidebar__company">
+          <h1 class="sidebar__company-name">ORBIS CORP</h1>
+          <svg
+            class="sidebar__company-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="20px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#fff"
+          >
+            <path
+              d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"
+            />
+          </svg>
+        </div>
+
+        <button class="sidebar__button sidebar__button--yellow">
+          ok | no hold
+        </button>
+
+        <!-- Status section -->
+        <div class="sidebar__section">
+          <div class="sidebar__field">
+            <label class="sidebar__label">WORKFLOW</label>
+            <div class="sidebar__value">Attention Reason</div>
+            <div class="sidebar__parent">
+              <div class="sidebar__parent-name">Void Proposal</div>
+              <div class="sidebar__parent-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="17px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#5f6368"
+                >
+                  <path
+                    d="M480-80 240-320l57-57 183 183 183-183 57 57L480-80ZM298-584l-58-56 240-240 240 240-58 56-182-182-182 182Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="sidebar__value">action required by</div>
+            <div class="sidebar__parent">
+              <div class="sidebar__parent-name">CRM / CSM</div>
+            </div>
+          </div>
+
+          <div class="sidebar__value">action required by</div>
+          <div class="sidebar__parent">
+            <div class="sidebar__parent-name">CRM / CSM</div>
+            <div class="sidebar__parent-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="17px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#5f6368"
+              >
+                <path
+                  d="M480-80 240-320l57-57 183 183 183-183 57 57L480-80ZM298-584l-58-56 240-240 240 240-58 56-182-182-182 182Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">PROPOSAL</label>
+          <div class="proposal__value">854670</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">Status</label>
+          <div class="proposal__value">In Design</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">PRODUCT</label>
+          <div class="proposal__value">D106722BR01</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">REASON CODE</label>
+          <div class="proposal__value">100 | New-Print/ Quote/ Sample</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">OPPORTUNITY</label>
+          <div class="proposal__value">O-000280396</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">REQUESTED DATE</label>
+          <div class="proposal__value">07/16/2024</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">VALID FROM</label>
+          <div class="proposal__value">07/16/2024</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">VALID TO</label>
+          <div class="proposal__value">08/20/2024</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">PLANT</label>
+          <div class="proposal__value">4006 | Northwood Sales & Service</div>
+        </div>
+
+        <div class="proposal__field">
+          <label class="proposal__label">Description</label>
+          <div class="proposal__value">pospum ese geraut ponyloop</div>
+        </div>
+
+        <!-- Team section -->
+        <div class="sidebar__section">
+          <h2 class="sidebar__section-title">DESIGNER</h2>
+          <div class="sidebar__team">
+            <div class="sidebar__team-member">
+              <img
+                src="/person1.jpg"
+                alt="Rosalie Waters"
+                class="sidebar__avatar"
+              />
+              <span class="sidebar__name">Rosalie Waters</span>
+            </div>
+          </div>
+          <h2 class="sidebar__section-title">ESTIMATOR</h2>
+          <div class="sidebar__team">
+            <div class="sidebar__team-member">
+              <img
+                src="/person 2.jpg"
+                alt="Rose Caldwell"
+                class="sidebar__avatar"
+              />
+              <span class="sidebar__name">Rose Caldwell</span>
+            </div>
+          </div>
+          <h2 class="sidebar__section-title">SAMPLE MAKER</h2>
+          <div class="sidebar__team">
+            <div class="sidebar__team-member">
+              <img
+                src="/person 3.jpg"
+                alt="Helen Burgess"
+                class="sidebar__avatar"
+              />
+              <span class="sidebar__name">Helen Burgess</span>
+            </div>
+          </div>
+          <h2 class="sidebar__section-title">APPROVER</h2>
+          <div class="sidebar__team">
+            <div class="sidebar__team-member">
+              <img
+                src="/person 4.png"
+                alt="Helen Burgess"
+                class="sidebar__avatar"
+              />
+              <span class="sidebar__name">Helen Burgess</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="main-content"></main>
+      <aside class="sidebar sidebar--right">
+        <div class="comments">
+          <div class="comments__header">
+            <div class="comments__title-group">
+              <h2 class="comments__title">COMMENTS</h2>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="skyblue"
+              >
+                <path
+                  d="M480-80 310-250l57-57 73 73v-166h80v165l72-73 58 58L480-80ZM250-310 80-480l169-169 57 57-72 72h166v80H235l73 72-58 58Zm460 0-57-57 73-73H560v-80h165l-73-72 58-58 170 170-170 170ZM440-560v-166l-73 73-57-57 170-170 170 170-57 57-73-73v166h-80Z"
+                />
+              </svg>
+            </div>
+            <button class="comments__add-button">ADD</button>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="search">
+          <div class="search__header">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#fff"
+              >
+                <path
+                  d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#fff"
+              >
+                <path
+                  d="M440-160q-17 0-28.5-11.5T400-200v-240L168-736q-15-20-4.5-42t36.5-22h560q26 0 36.5 22t-4.5 42L560-440v240q0 17-11.5 28.5T520-160h-80Zm40-308 198-252H282l198 252Zm0 0Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="border"></div>
+        <div class="comments__list">
+          <div class="comments__item">
+            <div class="comments__header-info">
+              <div class="comments__title-group">
+                <h3 class="comments__proposal">
+                  PROPOSAL # 8567560 | REVISION # 2
+                </h3>
+                <span class="comments__timestamp">25 JUL 2:30 PM</span>
+              </div>
+              <div class="comments__author">KATHARINE PAUL</div>
+            </div>
+            <p class="comments__content">
+              Neque porro quisquam est, qui dolorem etsam ipsumto quis dolor sit
+              amet...
+            </p>
+            <div class="comments__divider"></div>
+          </div>
+        </div>
+        <div class="comments__list">
+          <div class="comments__item">
+            <div class="comments__header-info">
+              <div class="comments__title-group">
+                <h3 class="comments__proposal">
+                  PROPOSAL # 8567560 | REVISION # 2
+                </h3>
+                <span class="comments__timestamp">25 JUL 2:30 PM</span>
+              </div>
+              <div class="comments__author">KATHARINE PAUL</div>
+            </div>
+            <p class="comments__content">
+              Neque porro quisquam est, qui dolorem etsam ipsumto quis dolor sit
+              amet...
+            </p>
+            <div class="comments__divider"></div>
+          </div>
+        </div>
+        <div class="comments__list">
+          <div class="comments__item">
+            <div class="comments__header-info">
+              <div class="comments__title-group">
+                <h3 class="comments__proposal">
+                  PROPOSAL # 8567560 | REVISION # 2
+                </h3>
+                <span class="comments__timestamp">25 JUL 2:30 PM</span>
+              </div>
+              <div class="comments__author">KATHARINE PAUL</div>
+            </div>
+            <p class="comments__content">
+              Neque porro quisquam est, qui dolorem etsam ipsumto quis dolor sit
+              amet...
+            </p>
+            <div class="comments__divider"></div>
+          </div>
+        </div>
+        <div class="comments__list">
+          <div class="comments__item">
+            <div class="comments__header-info">
+              <div class="comments__title-group">
+                <h3 class="comments__proposal">
+                  PROPOSAL # 8567560 | REVISION # 2
+                </h3>
+                <span class="comments__timestamp">25 JUL 2:30 PM</span>
+              </div>
+              <div class="comments__author">KATHARINE PAUL</div>
+            </div>
+            <p class="comments__content">
+              Neque porro quisquam est, qui dolorem etsam ipsumto quis dolor sit
+              amet...
+            </p>
+            <div class="comments__divider"></div>
+          </div>
+        </div>
+        <div class="comments__list">
+          <div class="comments__item">
+            <div class="comments__header-info">
+              <div class="comments__title-group">
+                <h3 class="comments__proposal">
+                  PROPOSAL # 8567560 | REVISION # 2
+                </h3>
+                <span class="comments__timestamp">25 JUL 2:30 PM</span>
+              </div>
+              <div class="comments__author">KATHARINE PAUL</div>
+            </div>
+            <p class="comments__content">
+              Neque porro quisquam est, qui dolorem etsam ipsumto quis dolor sit
+              amet...
+            </p>
+            <div class="comments__divider"></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
