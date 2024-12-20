@@ -185,8 +185,8 @@ body {
 
 .sidebar__parent {
   display: flex;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  /* padding-top: 0.1rem;
+  padding-bottom: 0.1rem; */
   background-color: #ffffff;
   justify-content: space-around;
   align-items: center;
@@ -199,6 +199,40 @@ body {
   text-align: left;
   width: 100%;
   margin-left: 0.4rem;
+}
+
+.sidebar__parent {
+  display: flex;
+  background-color: #ffffff;
+  width: 170px;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.input-with-icon {
+  width: 100%;
+  padding-right: 30px;
+  box-sizing: border-box;
+  height: 100%; /* Make input take full height */
+  border: 1px solid #ddd; /* Lighter border color */
+  outline: none; /* Remove default focus outline */
+  padding: 8px 30px 8px 8px; /* Add proper padding on all sides */
+  margin: 0; /* Remove any default margins */
+  display: block; /* Ensure block display */
+}
+
+.icon-container {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* This allows clicking through the icon to the input */
+  display: flex; /* Added to properly center the icon */
+  align-items: center;
 }
 
 .sidebar__parent--icon {
