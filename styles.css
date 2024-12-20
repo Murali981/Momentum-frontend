@@ -207,6 +207,11 @@ body {
   width: 170px;
 }
 
+.select {
+  width: 100%;
+  height: 25px;
+}
+
 .input-wrapper {
   position: relative;
   width: 100%;
